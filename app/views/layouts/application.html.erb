@@ -2,14 +2,16 @@
 <html>
   <head>
     <title>WebAplikacija</title>
-    <%= csrf_meta_tags %>
 
-   
+    <%= csrf_meta_tags %>
   </head>
 
   <body>
+<%= render '/layouts/nav'%>
+</body>
+<body>
+<%= yield %>
+</body>
 
-
-    <%= yield %>
   </body>
 </html>
