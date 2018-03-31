@@ -8,6 +8,6 @@ class PagesController < ApplicationController
   def profile
   end
 
-  def explore
+  def kontakt
   end
 end
